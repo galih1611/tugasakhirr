@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #333;
+}
+
+
+.ab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 80px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.cd {
+  font-weight: 600;
+  font-size: 22px;
+  color: #0a5eb7;
+}
+
+.cd span {
+  color: #00b4d8;
+}
+
+.ef a {
+  text-decoration: none;
+  margin-left: 28px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s;
+}
+
+.ef a:hover,
+.ef a.active {
+  color: #00b4d8;
+}
+
+.kontak {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.kontak h2 {
+  text-align: center;
+  color: #0a5eb7;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.kontak p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.dl p {
+  margin: 8px 0;
+  font-weight: bold;
+  color: #444;
+}
+
+.rk input,
+.rk textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rk button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rk button:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #ffffff;
+  color: #666;
+  font-size: 14px;
+  border-top: 1px solid #eaeaea;
+}
